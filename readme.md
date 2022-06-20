@@ -5,9 +5,9 @@
     - ACCESS_TOKEN_SECRET=||random string as key for jwt tokens||
     
 - Then write "npm install" in the terminal inside the folder backend.
-- Next write "nodemon" in the terminal.
+- Next write "nodemon" in the terminal in backend.
 
 2. 
 - To start tbe frontend write "npm install" in the terminal inside the folder frontend.
-- Then write "npm start" in the terminal.
+- Then write "npm start" in the terminal in fronted.
 
