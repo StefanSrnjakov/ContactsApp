@@ -30,7 +30,7 @@
  ## Functionalities
  Register 
  
- * sha256 hash
+ * bcrypt password hash and salt
  * validation in middleware
  
  Login
