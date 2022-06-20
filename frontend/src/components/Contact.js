@@ -12,7 +12,7 @@ function Contact() {
     const params = useParams();
     useEffect(function () {
         const getContact = async function () {
-            const res = await fetch('http://localhost:5001/contacts/' + params.id, {
+            const res = await fetch('http://localhost:5002/contacts/' + params.id, {
                 method: 'GET',
                 credentials: 'include',
                 headers: {
@@ -32,7 +32,7 @@ function Contact() {
             "lastName": lastName,
             "phoneNumber": phoneNumber
         }
-        const res = await fetch('http://localhost:5001/contacts/' + params.id, {
+        const res = await fetch('http://localhost:5002/contacts/' + params.id, {
             method: 'PUT',
             credentials: 'include',
             headers: {
@@ -47,7 +47,7 @@ function Contact() {
         setEditClicked(false)
     }
     async function deleteContact() {
-        await fetch('http://localhost:5001/contacts/' + params.id, {
+        await fetch('http://localhost:5002/contacts/' + params.id, {
             method: 'DELETE',
             credentials: 'include',
             headers: {
@@ -73,7 +73,7 @@ function Contact() {
                         height: "150px",
                         objectFit: "cover",
                         borderRadius: "50%"
-                    }} src={"http://localhost:5001/images/" + contact.imgUrl}/><br/>
+                    }} src={"http://localhost:5002/images/" + contact.imgUrl}/><br/>
                 </div>
                 <div className="col-3" style={{
                     backgroundColor: "whitesmoke",

@@ -12,7 +12,7 @@ function Login() {
 
     async function login(event) {
         event.preventDefault();
-        const res = await fetch('http://localhost:5001/login', {
+        const res = await fetch('http://localhost:5002/login', {
             method: 'POST',
             credentials: 'include',
             headers: {'Content-Type': 'application/json'},

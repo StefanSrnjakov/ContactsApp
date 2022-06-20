@@ -8,7 +8,7 @@ function Register() {
 
     async function login(event) {
         event.preventDefault();
-        const res = await fetch('http://localhost:5001/register', {
+        const res = await fetch('http://localhost:5002/register', {
             method: 'POST',
             credentials: 'include',
             headers: {'Content-Type': 'application/json'},

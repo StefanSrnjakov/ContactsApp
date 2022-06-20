@@ -18,7 +18,7 @@ function Logout() {
                     id: localStorage.getItem('user').id
                 })
             }
-            await fetch('http://localhost:5001/logout', data);
+            await fetch('http://localhost:5002/logout', data);
             accountContext.setUserContext(null);
         }
         logout();

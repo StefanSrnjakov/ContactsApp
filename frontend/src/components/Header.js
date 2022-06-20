@@ -9,8 +9,8 @@ import AddBoxIcon from '@mui/icons-material/AddBox';
 
 function Header() {
     return (<header>
-        <div className={"m-4 p-1"}>
-            <nav className={"navbar navbar-expand-lg fixed-top"} color={"white"}>
+        <div className={"m-4 p-1"} >
+            <nav className={"navbar navbar-expand-lg fixed-top"} color={"white"} style={{backgroundColor:"rgba(125, 208, 205,0.3)"}}>
                 <div className="container-fluid">
 
                     {/*Logo*/}

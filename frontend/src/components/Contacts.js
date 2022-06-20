@@ -10,7 +10,7 @@ function Contacts() {
 
         const getContacts = async function () {
 
-            const res = await fetch('http://localhost:5001/contacts', {
+            const res = await fetch('http://localhost:5002/contacts', {
                 method: 'GET',
                 credentials: 'include',
                 headers: {
@@ -41,7 +41,7 @@ function Contacts() {
                                     height: "150px",
                                     objectFit: "cover",
                                     borderRadius: "50%"
-                                }} src={"http://localhost:5001/images/" + contact.imgUrl}/><br/>
+                                }} src={"http://localhost:5002/images/" + contact.imgUrl}/><br/>
                             </div>
                             <div className="col-3" style={{
                                 backgroundColor: "whitesmoke",
