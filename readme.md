@@ -1,5 +1,5 @@
 1. ## Backend start
-- To start the backend please add .env file where you write the varaiables: 
+- To start the backend please add .env file in backend where you write the varaiables: 
 
     - DB_CONNECT=||your connection string in mongo||
     - ACCESS_TOKEN_SECRET=||random string as key for jwt tokens||
@@ -8,7 +8,7 @@
 - Next write "nodemon" in the terminal in backend.
 
 2. ## Frontend start
-- To start tbe frontend write "npm install" in the terminal inside the folder frontend.
+- To start the frontend write "npm install" in the terminal inside the folder frontend.
 - Then write "npm start" in the terminal in fronted.
 
 3. ## Interface images
@@ -54,7 +54,7 @@
  
  Contact 
  
- * you see image, first name, last name number.
+ * you see image, first name, last name, number.
  * 2 buttons
  * edit 
  * delete
