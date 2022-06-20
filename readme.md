@@ -29,22 +29,31 @@
 
  ## Functionalities
  Register 
+ 
  * sha256 hash
  * validation in middleware
+ 
  Login
+ 
  * jwt authentication
- Create contact 
+ 
+ Create contact
+
  * add image
  * default image (image is not mandatory)
  * send as FormData object
  * images saved in backend as file, in base just path to file
+ 
  List Contacts 
+ 
  * Image, first name, last name.
  * 2 icons as buttons
- ** call icon to call if you are from phone or to redirect phone number to your phone
- ** info icon to navigate you to path /contacts/:id to see detailed infomation about contact 
+ - call icon to call if you are from phone or to redirect phone number to your phone
+ - info icon to navigate you to path /contacts/:id to see detailed infomation about contact 
+ 
  Contact 
+ 
  * you see image, first name, last name.
  * 2 buttons
- ** edit 
- ** delete
+ - edit 
+ - delete
