@@ -42,6 +42,7 @@
  * add image
  * default image (image is not mandatory)
  * send as FormData object
+ * validation in fornted and backend, regex to match telephone.
  * images saved in backend as file, in base just path to file
  
  List Contacts 
@@ -53,7 +54,7 @@
  
  Contact 
  
- * you see image, first name, last name.
+ * you see image, first name, last name number.
  * 2 buttons
  * edit 
  * delete
