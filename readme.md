@@ -48,12 +48,12 @@
  
  * Image, first name, last name.
  * 2 icons as buttons
- - call icon to call if you are from phone or to redirect phone number to your phone
- - info icon to navigate you to path /contacts/:id to see detailed infomation about contact 
+ * call icon, to call if you are from phone or to redirect phone number to your phone
+ * info icon, to navigate you to path /contacts/:id to see detailed infomation about contact 
  
  Contact 
  
  * you see image, first name, last name.
  * 2 buttons
- - edit 
- - delete
+ * edit 
+ * delete
